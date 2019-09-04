@@ -1,6 +1,6 @@
 aside{
     background-color: #282a25f0;
-    grid-area: aside;
+    grid-area: aside; /*separando o site es quadrados */
     font-family: 'Permanent Marker', cursive;
     font-family: 'Montserrat', sans-serif;
     height: 150vh;
@@ -37,6 +37,11 @@ body{
 grid-template-columns: 25vw 25vw 25vw 25vw;
 grid-template-rows: 8vh 70vh 60vh 10vh;   
 margin: 0; 
+}
+
+body::-webkit-scrollbar{
+    width: 0px; /* Remove a sacrollbar space*/
+    background: transparent; /*só para fazer a barra ficar invisível*/
 }
 
 header{
