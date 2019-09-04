@@ -4,6 +4,7 @@ aside{
 
 body{
     display: grid;  
+    font-family: 'Permanent Marker', cursive;
     grid-template-areas: "nav nav nav nav "
                          " header header header aside"
                          "section section section aside"
@@ -18,7 +19,25 @@ header{
 }
 
 nav{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
     grid-area: nav;
+    
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #bb2127;;
+}
+
+nav img{
+    width: 50px;
 }
 
 section{
