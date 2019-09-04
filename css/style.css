@@ -11,12 +11,14 @@ body{
                          "section section section aside"
                          "footer footer footer footer";
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 25vh 60vh 10vh;   
+grid-template-rows: 8vh 40vh 60vh 10vh;   
 margin: 0; 
 }
 
 header{
-    grid-area: header;
+    background-image: url("../images/members3.jpg");
+    background-size: cover;
+    grid-area: header;   
 }
 
 nav{
