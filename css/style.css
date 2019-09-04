@@ -1,5 +1,29 @@
 aside{
+    background-color: #282a25f0;
     grid-area: aside;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Montserrat', sans-serif;
+    height: 150vh;
+}
+aside p{
+    font-family:'Montserrat', sans-serif;
+}
+
+aside h2{
+    text-align: center;   
+}
+
+aside h2, aside p{
+    color: white;
+    padding: 15px;
+}
+
+aside ul{
+    list-style-image: url("../images/nuvemzinha.png");
+}
+
+aside ul li{
+    color: white;
 }
 
 body{
@@ -11,7 +35,7 @@ body{
                          "section section section aside"
                          "footer footer footer footer";
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 40vh 60vh 10vh;   
+grid-template-rows: 8vh 70vh 60vh 10vh;   
 margin: 0; 
 }
 
