@@ -3,7 +3,7 @@ aside{
     grid-area: aside; /*separando o site es quadrados */
     font-family: 'Permanent Marker', cursive;
     font-family: 'Montserrat', sans-serif;
-    height: 150vh;
+    height: 160vh;
 }
 aside p{
     font-family:'Montserrat', sans-serif;
@@ -75,6 +75,24 @@ nav img{
 
 section{
     grid-area: section;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+}
+
+section h2{
+    margin: 0px;
+    text-align: center;
+}
+
+section input:focus{
+    background-color: rgba(0, 0, 0, 0.692); /*colocar em foco a caixinha*/
+}
+
+section input::placeholder{
+    color: red;
 }
 
 footer{
